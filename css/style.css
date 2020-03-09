@@ -1,0 +1,49 @@
+:root {
+    --color-main: #c0c0c0;
+    --color-second: #888383;
+    --title-size: 24px;
+    --text-size: 16px;
+    --background-main: #f1f1f1;
+    --background-list: #ebebed;
+}    
+
+body {
+    font-weight: 500;
+    background: var(--background-main);
+}
+
+p {
+    color: var(--color-second);
+    font-size: var(--text-size);
+    padding: 4px;    
+}
+
+.hugesearch-list {
+    margin-top: 10px;
+}
+
+.hugesearch-list a {
+    text-decoration: none;   
+}
+
+.hugesearch-list li {
+    background: var(--background-list);
+    margin: 5px;
+}
+
+.hugesearch-list img, p {
+    display: inline-block;
+    vertical-align: middle;
+}
+h2 {
+    font-size: var(--title-size);
+    color: var(--color-main);
+}
+
+.col-title {
+    text-transform: uppercase;    
+}    
+
+.row {
+    margin: 20px 0
+}
